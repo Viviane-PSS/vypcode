@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed; /* Fixa o elemento na tela */
+  top: 0; /* Posiciona no topo da viewport */
+  width: 100%; /* Faz com que ocupe toda a largura */
+  z-index: 1000;
+  background-color: white;
+}
+
+nav img {
+  max-width: 100px;
+}
+
+nav ul {
+  display: flex; /* Define o Flexbox para alinhar os itens em uma linha */
+  list-style: none; /* Remove os marcadores de lista */
+  padding: 0; /* Remove o espaçamento interno padrão */
+  margin: 0; /* Remove as margens externas padrão */
+  justify-content: space-between;
+}
+
+nav ul li a {
+  display: block; /* Garante que o link ocupe todo o espaço do item da lista */
+  padding: 15px;
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: #2ea684;
+  font-weight: 600;
+}

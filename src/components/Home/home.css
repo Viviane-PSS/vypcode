@@ -1,0 +1,9 @@
+.home-container {
+  background-color: #a3d9d3;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.home-container img {
+  margin: auto;
+}

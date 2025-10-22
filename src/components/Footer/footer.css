@@ -1,0 +1,28 @@
+footer {
+  background-color: #2ea684;
+  padding: 32px;
+}
+
+footer a {
+  color: #a3d9d3;
+  font-size: 24px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  max-width: 160px;
+}
+.rs {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid rgba(163, 217, 211, 0.5);
+  padding-top: 16px;
+}
+.rs ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+}
