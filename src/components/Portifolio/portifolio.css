@@ -1,4 +1,4 @@
-#sobre {
+#portifolio {
   margin: 24px auto;
   display: flex;
   flex-direction: column;
@@ -6,18 +6,16 @@
   align-items: center;
 }
 
-#sobre h2 {
+#portifolio h2 {
   font-weight: 700;
   padding: 20px 16px;
   text-align: center;
   font-size: 32px;
-}
-.custom-underline {
   position: relative; /* Define o contexto de posicionamento */
-  display: inline-block; /* Importante para o ajuste da largura */
+  display: inline-block;
 }
 
-.custom-underline::after {
+#portifolio h2::after {
   content: ""; /* Conteúdo do pseudo-elemento */
   position: absolute;
   bottom: 0;
@@ -32,19 +30,26 @@
   transition: transform 0.5s ease;
 }
 
-.custom-underline:hover::after {
+#portifolio h2:hover::after {
   /* Animação, se desejado */
   transform: translateX(-1); /* Retorna à posição original no hover */
 }
 
-.text-container {
-  margin: 0 20px;
-  text-align: center;
-  max-width: 620px;
+.line {
 }
 
-.texto {
-  font-size: 16px;
-  margin: 8px 0px;
-  font-weight: 500;
+.port {
+  display: flex;
+  align-items: center;
+}
+
+.port label {
+  color: #2ea684;
+  font-size: 32px;
+  padding-right: 16px;
+}
+
+.port a {
+  text-decoration: none;
+  color: black;
 }

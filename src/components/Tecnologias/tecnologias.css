@@ -1,0 +1,48 @@
+#tecnologias {
+  margin: 24px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-underline {
+  position: relative; /* Define o contexto de posicionamento */
+  display: inline-block; /* Importante para o ajuste da largura */
+}
+#tecnologias h2 {
+  font-weight: 700;
+  padding: 20px 16px;
+  text-align: center;
+  font-size: 32px;
+}
+#tecnologias h2::after {
+  content: ""; /* Conteúdo do pseudo-elemento */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px; /* Espessura do sublinhado */
+  background-color: #2ea684; /* Cor do sublinhado */
+
+  /* DESLOCAMENTO HORIZONTAL */
+  transform: translateX(32px) translateY(-8px); /* Move 10 pixels para a direita */
+
+  transition: transform 0.5s ease;
+}
+
+.custom-underline:hover::after {
+  /* Animação, se desejado */
+  transform: translateX(-1); /* Retorna à posição original no hover */
+}
+
+#tecnologias div {
+  display: flex;
+  justify-content: space-around;
+  margin: 24px;
+}
+
+.t1 {
+  font-size: 128px;
+  color: #2ea684;
+}

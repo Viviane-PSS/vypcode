@@ -26,4 +26,42 @@ nav ul li a {
   text-decoration: none; /* Remove o sublinhado dos links */
   color: #2ea684;
   font-weight: 600;
+  position: relative;
+  transition: cor 0.3s ease;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  color: #2ea684;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  padding: 15px 20px;
+}
+
+.menu-item {
+  color: #2ea684;
+  text-decoration: none;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+/* O efeito MÁGICO de sublinhado no React */
+/* A lógica do componente aplica esta classe quando a seção está ativa */
+.menu-item.active {
+  border-bottom: 3px solid #2ea684; /* Cor do sublinhado */
 }
