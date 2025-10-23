@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/vypcode/static/css/main.fb15c323.css",
+    "main.js": "/vypcode/static/js/main.573a4581.js",
+    "static/js/453.e0e88a2a.chunk.js": "/vypcode/static/js/453.e0e88a2a.chunk.js",
+    "static/media/p3.png": "/vypcode/static/media/p3.597f3408f262ab9a3016.png",
+    "static/media/home.png": "/vypcode/static/media/home.6757c1d26c6ec76d465b.png",
+    "static/media/p6.png": "/vypcode/static/media/p6.cda591c506a933cce2fa.png",
+    "static/media/p4.png": "/vypcode/static/media/p4.55571fee56d46b00008c.png",
+    "static/media/p2.png": "/vypcode/static/media/p2.4dcfd16f5f0d3f0ef5b2.png",
+    "static/media/p1.png": "/vypcode/static/media/p1.5874fc216fe1e763268a.png",
+    "static/media/p5.png": "/vypcode/static/media/p5.87885f44c8e4aeca0f07.png",
+    "static/media/logo.png": "/vypcode/static/media/logo.6ea6fde6725dbb34e1f3.png",
+    "static/media/logo2.png": "/vypcode/static/media/logo2.4c42f151fb951b078454.png",
+    "index.html": "/vypcode/index.html",
+    "main.fb15c323.css.map": "/vypcode/static/css/main.fb15c323.css.map",
+    "main.573a4581.js.map": "/vypcode/static/js/main.573a4581.js.map",
+    "453.e0e88a2a.chunk.js.map": "/vypcode/static/js/453.e0e88a2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb15c323.css",
+    "static/js/main.573a4581.js"
+  ]
+}
