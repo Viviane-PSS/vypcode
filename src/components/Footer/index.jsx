@@ -1,5 +1,5 @@
 import "./footer.css";
-import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa6";
 import Logo2 from "../../images/logo2.png";
 
@@ -32,6 +32,11 @@ const Footer = () => {
               target="_blank"
             >
               <FaWhatsapp />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Viviane-PSS" target="_blank">
+              <FaGithub />
             </a>
           </li>
         </ul>

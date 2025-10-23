@@ -18,9 +18,9 @@ const Sobre = () => {
         </p>
         <p className="texto">
           Trabalhei ativamente como Desenvolvedora em Projetos de Pesquisa e
-          Desenvolvimento (P&D), onde pude colocar meus conhecimentos em
-          prática, trabalhando com back-end: C# e front-end moderno: JavaScript,
-          HTML, CSS e React JS.
+          Desenvolvimento (P&D) ligados a ANEEL, onde pude colocar meus
+          conhecimentos em prática, trabalhando com back-end: C# e front-end
+          moderno: JavaScript, HTML, CSS e React JS.
         </p>
         <p className="texto">
           Basicamente, eu amo transformar ideias complexas em soluções digitais
