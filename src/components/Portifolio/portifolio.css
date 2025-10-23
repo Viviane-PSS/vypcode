@@ -40,7 +40,14 @@
   display: flex;
   gap: 16px;
 }
-
+@media (max-width: 768px) {
+  .line {
+    padding-top: 32px;
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+  }
+}
 .port {
   display: flex;
   align-items: center;

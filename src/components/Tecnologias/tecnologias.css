@@ -42,6 +42,15 @@
   margin: 24px;
 }
 
+/* @media (max-width: 768px) {
+  #tecnologias div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 24px;
+  }
+} */
+
 .t1 {
   font-size: 128px;
   color: #2ea684;

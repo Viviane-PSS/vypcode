@@ -6,4 +6,5 @@
 
 .home-container img {
   margin: auto;
+  max-width: 100%;
 }
