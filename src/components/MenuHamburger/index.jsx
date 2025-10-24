@@ -23,9 +23,9 @@ const MenuHamburger = () => {
       <div className="menu-container">
         <div className={active ? "menu menu-open" : "menu menu-close"}>
           <ul>
-            <div className="close">
+            {/* <div className="close">
               <IoIosClose />
-            </div>
+            </div> */}
             <li>
               <a className="list-item" href="#home">
                 Home

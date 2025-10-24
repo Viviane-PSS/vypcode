@@ -4,12 +4,15 @@
   padding-left: 8px;
   padding-right: 8px;
   position: fixed;
+  width: 100%; /* Faz com que ocupe toda a largura */
+  z-index: 1000;
   background-color: white;
-  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .icon-hamburger {
-  color: #2ea684;
+  color: #a3d9d3;
   font-size: 64px;
   text-align: right;
   padding-left: 8px;
@@ -20,6 +23,7 @@
   justify-content: left;
   position: fixed;
   padding-top: 64px;
+  width: 100%;
 }
 
 .menu {
@@ -51,9 +55,11 @@
 }
 
 .list-item {
+  display: block;
   text-decoration: none;
   color: white;
   font-weight: 600;
+  transition: cor 0.3s ease;
 }
 
 .list-item :hover {
