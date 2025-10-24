@@ -6,9 +6,12 @@ import Footer from "./components/Footer";
 import Tecnologias from "./components/Tecnologias";
 import Portifolio from "./components/Portifolio";
 import React from "react";
-import { useIsMobile } from "./hooks/useIsMobile";
-import HamburgerMenu from "./components/HamburgerMenu";
+import HamburgerMenu from "./components/HambugerMenu";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import { useState } from "react";
+import { useIsMobile } from "./hooks/useIsMobile";
+import Logo from "./images/logo.png";
+import MenuHamburger from "./components/MenuHamburger";
 
 function App() {
   const isMobile = useIsMobile();
@@ -19,15 +22,14 @@ function App() {
         accountName="Vyp Code"
         chatMessage="Olá! Como podemos ajudar?"
       />
-      <header className="App-header"></header>
-      {isMobile ? (
-        // Se for mobile, renderiza o Menu Hamburger
-        <HamburgerMenu />
-      ) : (
-        // Se for desktop, renderiza a sua Navbar pronta
-        <NavBar />
-      )}
+      <header className="App-header">
+        {isMobile ? <MenuHamburger /> : <NavBar />}
+
+        {/* <HamburgerMenu /> */}
+      </header>
+
       <Home />
+
       <Sobre />
       <Tecnologias />
       <Portifolio />

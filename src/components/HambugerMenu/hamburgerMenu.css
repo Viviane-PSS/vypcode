@@ -1,0 +1,100 @@
+/* .h-menu {
+  /* padding-top: 100px; 
+}
+.icon {
+  position: absolute;
+  z-index: 4;
+  left: 1%;
+  width: fit-content;
+  height: 44px;
+  cursor: pointer;
+}
+
+.hamburger {
+  top: 50%;
+  left: 10%;
+  width: 30px;
+  height: 6px;
+  background-color: #2ea684;
+  position: absolute;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.hamburger::before {
+  content: "";
+  top: -12px;
+  position: absolute;
+  width: 37px;
+  height: 6px;
+  background-color: #2ea684;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.hamburger::after {
+  content: "";
+  top: 12px;
+  position: absolute;
+  width: 37px;
+  height: 6px;
+  background-color: #2ea684;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  left: 1%;
+  padding: 45px 0 0;
+  flex-wrap: nowrap;
+  font-size: 16px;
+  font-weight: 600;
+  color: #a3d9d3;
+}
+
+.list .list-items {
+  padding: 0;
+  list-style: none;
+}
+
+.list .list-items li {
+  margin: 2px 8px;
+  cursor: pointer;
+}
+
+.list .list-items li:hover {
+  font-weight: 800px;
+}
+
+.icon.icon-active .hamburger {
+  background: transparent;
+  box-shadow: 0 2px 5px transparent;
+}
+
+.icon.icon-active .hamburger :after {
+  top: 0;
+  background-color: white;
+  transform: rotate(225deg);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.icon.icon-active .hamburger :before {
+  top: 0;
+  background-color: white;
+  transform: rotate(135deg);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu.menu-open {
+  width: 20 0px;
+  height: 100vh;
+  background-color: #2ea684;
+  box-shadow: 10px 0 69px 0 rgba(0, 0, 0, 0.59);
+}
+
+.menu .menu-close {
+  display: none;
+  width: 0px;
+} */

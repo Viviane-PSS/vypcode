@@ -1,7 +1,7 @@
 import React from "react";
 import "./navBar.css";
 import Logo from "../../images/logo.png";
-import UseActiveSection from "../UseActiveSection";
+import UseActiveSection from "../../hooks/UseActiveSection";
 
 const sectionIds = ["home", "sobre", "tecnologias", "portifolio", "contato"];
 
