@@ -14,26 +14,26 @@
   padding-left: 8px;
 }
 
-/* .menu-container {
+.menu-container {
   display: flex;
   justify-content: left;
   position: fixed;
-  padding: 64px;
-} */
+  padding-top: 64px;
+}
 
 .menu {
   position: fixed;
-  padding-top: 64px;
-}
-.menu ul {
-  list-style: none;
-  font-size: 32px;
-  text-align: left;
+  /* padding-top: 64px; */
   width: 200px;
   z-index: 5;
   background-color: #2ea684;
   padding: 16px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.menu ul {
+  list-style: none;
+  font-size: 32px;
+  text-align: left;
 }
 
 .close {
