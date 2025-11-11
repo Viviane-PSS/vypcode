@@ -13,6 +13,7 @@
   font-size: 32px;
   position: relative; /* Define o contexto de posicionamento */
   display: inline-block;
+  z-index: 1;
 }
 
 #portifolio h2::after {
@@ -25,14 +26,14 @@
   background-color: #2ea684; /* Cor do sublinhado */
 
   /* DESLOCAMENTO HORIZONTAL */
-  transform: translateX(32px) translateY(-8px); /* Move 10 pixels para a direita */
+  /* transform: translateX(32px) translateY(-8px);  */
 
-  transition: transform 0.5s ease;
+  /* transition: transform 0.5s ease; */
 }
 
 #portifolio h2:hover::after {
   /* Animação, se desejado */
-  transform: translateX(-1); /* Retorna à posição original no hover */
+  /* transform: translateX(-1);  */
 }
 
 .line {

@@ -4,6 +4,7 @@ const Sobre = () => {
   return (
     <div id="sobre">
       <h2 className="custom-underline">Sobre mim</h2>
+
       <div className="text-container">
         <p className="texto">
           Sou bacharel e mestre em Ciência da Computação e Informática pela PUC

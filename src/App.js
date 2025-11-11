@@ -6,11 +6,8 @@ import Footer from "./components/Footer";
 import Tecnologias from "./components/Tecnologias";
 import Portifolio from "./components/Portifolio";
 import React from "react";
-import HamburgerMenu from "./components/HambugerMenu";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
-import { useState } from "react";
 import { useIsMobile } from "./hooks/useIsMobile";
-import Logo from "./images/logo.png";
 import MenuHamburger from "./components/MenuHamburger";
 
 function App() {
@@ -24,12 +21,9 @@ function App() {
       />
       <header className="App-header">
         {isMobile ? <MenuHamburger /> : <NavBar />}
-
-        {/* <HamburgerMenu /> */}
       </header>
 
       <Home />
-
       <Sobre />
       <Tecnologias />
       <Portifolio />

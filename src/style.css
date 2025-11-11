@@ -10,6 +10,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  z-index: 1;
 }
 
 code {
@@ -19,8 +21,4 @@ code {
 
 img {
   max-width: 100px;
-}
-
-.menu {
-  display: flex;
 }
