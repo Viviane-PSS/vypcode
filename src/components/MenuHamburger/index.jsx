@@ -27,7 +27,10 @@ const MenuHamburger = () => {
       </div>
       {active && (
         <div ref={menuRef} className="menu-container">
-          <div className={active ? "menu menu-open" : "menu menu-close"}>
+          <div
+            className={active ? "menu menu-open" : "menu menu-close"}
+            onClick={() => setActive(false)}
+          >
             <ul>
               {/* <div className="close">
               <IoIosClose />

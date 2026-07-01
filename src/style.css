@@ -22,3 +22,11 @@ code {
 img {
   max-width: 100px;
 }
+
+#home,
+#sobre,
+#tecnologias,
+#portifolio,
+#contato {
+  scroll-margin-top: 100px;
+}
