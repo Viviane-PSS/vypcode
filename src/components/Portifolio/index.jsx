@@ -6,6 +6,8 @@ import P3 from "../../images/p3.png";
 import P4 from "../../images/p4.png";
 import P5 from "../../images/p5.png";
 import P6 from "../../images/p6.png";
+import P7 from "../../images/p7.png";
+import P8 from "../../images/p8.png";
 
 const Portifolio = () => {
   return (
@@ -59,6 +61,22 @@ const Portifolio = () => {
           </div>
           <img src={P5} alt="" />
           <img src={P6} alt="" />
+        </div>
+        <div className="port">
+          <div>
+            <a
+              className="link-p1"
+              href="https://viviane-pss.github.io/Amor-de-Arte"
+              target="_blank"
+            >
+              <span>
+                <FaLaptopCode />
+              </span>
+              Amor de Arte
+            </a>
+          </div>
+          <img src={P8} alt="" />
+          <img src={P7} alt="" />
         </div>
       </div>
     </div>
